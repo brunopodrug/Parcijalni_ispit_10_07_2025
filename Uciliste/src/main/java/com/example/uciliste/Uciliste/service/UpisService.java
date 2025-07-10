@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface UpisService {
     List<UpisDto> getAllUpisi();
+
+    void deleteUpis(Long upisId);
 }

@@ -7,11 +7,13 @@ import lombok.NoArgsConstructor;
 
 import java.util.HashSet;
 import java.util.Set;
+import lombok.EqualsAndHashCode;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class ProgramObrazovanja {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,6 +25,14 @@ public class ProgramObrazovanja {
 
     @OneToMany(mappedBy = "programObrazovanja", cascade = CascadeType.ALL)
     private Set<Upis> upisSetprogramObraz = new HashSet<>();
+
+    @Override
+    public String toString() {
+        return "ProgramObrazovanja{" +
+                "id=" + programObrazovanjaId +
+                ", naziv='" + naziv + '\'' +
+                '}';
+    }
 
     public Long getProgramObrazovanjaId() {
         return programObrazovanjaId;

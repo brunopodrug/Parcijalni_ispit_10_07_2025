@@ -38,9 +38,9 @@ public class PolaznikControllerTest {
         mockMvc = MockMvcBuilders.standaloneSetup(polaznikController).build();
 
         // Initialize mock data
-        PolaznikDto article1 = new PolaznikDto("Toma", "Tomic", "backend java");
-        PolaznikDto article2 = new PolaznikDto("Ivana", "Ivancic", "frontend");
-        polaznici = Arrays.asList(article1, article2);
+        PolaznikDto polaznik1 = new PolaznikDto("Toma", "Tomic", "backend java");
+        PolaznikDto polaznik2 = new PolaznikDto("Ivana", "Ivancic", "frontend");
+        polaznici = Arrays.asList(polaznik1, polaznik2);
     }
 
     @Test

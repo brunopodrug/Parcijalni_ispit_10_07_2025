@@ -10,7 +10,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE3MjU3NSwiZXhwIjoxNzUyMTc4NTc1fQ.eajYAYpA2bR02lBpCAA0wWn-CrPelC3zWWIc7c7r5GA" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -32,7 +32,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1NDc1MCwiZXhwIjoxNzUyMTYwNzUwfQ.hhLf1dj4ip-KRV4Oc7cxmNyXXzeDBhC-WJ4za17B7os" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjIzNzU1OSwiZXhwIjoxNzUyMjQzNTU5fQ.AjfoOKn8rNmfl1puy2xDSMm_qW9TiUGjOpwpSDm5zHQ" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -48,7 +48,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE3MjU3NSwiZXhwIjoxNzUyMTc4NTc1fQ.eajYAYpA2bR02lBpCAA0wWn-CrPelC3zWWIc7c7r5GA" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -64,7 +64,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzIwMiwiZXhwIjoxNzUyMTU5MjAyfQ.KTrGhR9paPIHRqre99U5d98g6GATO7Ebd6BVQQ_yg3Y" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE3MjU3NSwiZXhwIjoxNzUyMTc4NTc1fQ.eajYAYpA2bR02lBpCAA0wWn-CrPelC3zWWIc7c7r5GA" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -86,7 +86,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzU5NywiZXhwIjoxNzUyMTU5NTk3fQ.d4wenieuf_TvYbwS7bBYTJgN2mdNKsajfiRG6D1zZyA" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjIzNzU1OSwiZXhwIjoxNzUyMjQzNTU5fQ.AjfoOKn8rNmfl1puy2xDSMm_qW9TiUGjOpwpSDm5zHQ" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -102,7 +102,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE3MjU3NSwiZXhwIjoxNzUyMTc4NTc1fQ.eajYAYpA2bR02lBpCAA0wWn-CrPelC3zWWIc7c7r5GA" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -118,7 +118,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE3MjU3NSwiZXhwIjoxNzUyMTc4NTc1fQ.eajYAYpA2bR02lBpCAA0wWn-CrPelC3zWWIc7c7r5GA" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -162,6 +162,22 @@
               <option name="method" value="POST" />
               <option name="name" value="Get refresh tokken" />
               <option name="url" value="http://localhost:9090/auth/api/v1/refreshToken" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE3MjU3NSwiZXhwIjoxNzUyMTc4NTc1fQ.eajYAYpA2bR02lBpCAA0wWn-CrPelC3zWWIc7c7r5GA" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="c1a131a8-8bb5-4b50-9efe-535a72be3ddc" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Delete upis" />
+              <option name="url" value="http://localhost:9090/upisi/1" />
             </requestState>
           </list>
         </option>

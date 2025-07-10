@@ -1,10 +1,11 @@
 package com.example.uciliste.Uciliste.service;
 
 import com.example.uciliste.Uciliste.domain.Polaznik;
+import com.example.uciliste.Uciliste.domain.Upis;
 import com.example.uciliste.Uciliste.dto.PolaznikDto;
 import com.example.uciliste.Uciliste.mapper.PolaznikMapper;
-import com.example.uciliste.Uciliste.mapper.PolaznikMapperImpl;
 import com.example.uciliste.Uciliste.repository.SpringDataPolaznikRepository;
+import com.example.uciliste.Uciliste.repository.SpringDataUpisRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
@@ -18,11 +19,14 @@ public class PolaznikServiceImpl implements PolaznikService {
     SpringDataPolaznikRepository polaznikRepository;
     ModelMapper modelMapper;
     PolaznikMapper polaznikMapper;
+    SpringDataUpisRepository springDataUpisRepository;
 
-    public PolaznikServiceImpl(SpringDataPolaznikRepository polaznikRepository, ModelMapper modelMapper, PolaznikMapperImpl polaznikMapper) {
+    public PolaznikServiceImpl(SpringDataPolaznikRepository polaznikRepository, ModelMapper modelMapper,
+                               PolaznikMapper polaznikMapper, SpringDataUpisRepository springDataUpisRepository) {
         this.polaznikRepository = polaznikRepository;
         this.modelMapper = modelMapper;
         this.polaznikMapper = polaznikMapper;
+        this.springDataUpisRepository = springDataUpisRepository;
     }
 
     @Override
@@ -65,7 +69,7 @@ public class PolaznikServiceImpl implements PolaznikService {
 
     @Override
     public void deletePolaznik(Long polaznikId) {
-        Optional<Polaznik> hardwareOptional = polaznikRepository.findById(polaznikId);
-        hardwareOptional.ifPresent(polaznikRepository::delete);
+        Optional<Polaznik> polaznik = polaznikRepository.findById(polaznikId);
+        polaznik.ifPresent(polaznikRepository::delete);
     }
 }
