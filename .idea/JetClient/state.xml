@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;ime&quot;: &quot;Bruno&quot;,&#10;  &quot;prezime&quot;: &quot;Brunic&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="ff894e7d-575b-4610-8dbb-a3b1f8133213" />
+              <option name="method" value="POST" />
+              <option name="name" value="Dodavanje novog polaznika" />
+              <option name="url" value="http://localhost:9090/polaznici" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="32c67be4-ef6e-40fa-99b6-3575e982838b" />
+              <option name="method" value="GET" />
+              <option name="name" value="Prikaz svi polaznika" />
+              <option name="url" value="http://localhost:9090/polaznici" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5NzI0OSwiZXhwIjoxNzUyMTAzMjQ5fQ.V8HcYOzYjWfNZZS1jsf6UhM-rwvLE620Jm4pd6VJYzA" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="0c2b775a-936b-4759-a9de-2d1fe884997d" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get polaznik by ID" />
+              <option name="url" value="http://localhost:9090/polaznici/1" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;ime&quot;: &quot;Antisa&quot;,&#10;  &quot;prezime&quot;: &quot;Antisic&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="dc6abe0e-eedb-4e7c-a35b-4c71e88ae165" />
+              <option name="method" value="PUT" />
+              <option name="name" value="Update polaznik" />
+              <option name="url" value="http://localhost:9090/polaznici/1" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="e4011e91-fd68-461a-b83b-0d7f9d13feda" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Delete polaznik" />
+              <option name="url" value="http://localhost:9090/polaznici/1" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5Mzc0NywiZXhwIjoxNzUyMDk5NzQ3fQ.kcIFuNR6nNuqh6LxBDp-PgH8W0R_9Di2Ty34i2ns6t0" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="7c130eec-6b7a-47a6-a052-73561aa8ac03" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get all program obrazovanja" />
+              <option name="url" value="http://localhost:9090/program-obrazovanja" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <nv>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5Mzc0NywiZXhwIjoxNzUyMDk5NzQ3fQ.kcIFuNR6nNuqh6LxBDp-PgH8W0R_9Di2Ty34i2ns6t0" />
+                    </nv>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="281871f9-c15d-4fcf-8c41-7387f11c3621" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get all upisi" />
+              <option name="url" value="http://localhost:9090/upisi" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;username&quot;: &quot;admin&quot;,&#10;  &quot;password&quot;: &quot;admin&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="1b381ff1-9d8f-4902-b45c-13f349e708ba" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login info" />
+              <option name="url" value="http://localhost:9090/auth/api/v1/login" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="eeac64f7-748a-47ff-a8db-62a0c51fd2c4" />
+    <option name="version" value="3" />
+  </component>
+</project>
