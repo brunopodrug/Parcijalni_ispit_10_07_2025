@@ -5,6 +5,16 @@ public class PolaznikDto {
 
     private String prezime;
 
+    private String programNaziv;
+
+    public String getProgramNaziv() {
+        return programNaziv;
+    }
+
+    public void setProgramNaziv(String programNaziv) {
+        this.programNaziv = programNaziv;
+    }
+
     public String getIme() {
         return ime;
     }
@@ -21,9 +31,10 @@ public class PolaznikDto {
         this.prezime = prezime;
     }
 
-    public PolaznikDto(String ime, String prezime) {
+    public PolaznikDto(String ime, String prezime, String programNaziv) {
         this.ime = ime;
         this.prezime = prezime;
+        this.programNaziv = programNaziv;
     }
 
     public PolaznikDto() {

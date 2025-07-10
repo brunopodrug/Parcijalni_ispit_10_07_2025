@@ -10,7 +10,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -18,7 +18,7 @@
               </option>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;ime&quot;: &quot;Bruno&quot;,&#10;  &quot;prezime&quot;: &quot;Brunic&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;ime&quot;: &quot;Bruno&quot;,&#10;  &quot;prezime&quot;: &quot;Brunic&quot;,&#10;  &quot;programNaziv&quot;: &quot;backend java&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -32,7 +32,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1NDc1MCwiZXhwIjoxNzUyMTYwNzUwfQ.hhLf1dj4ip-KRV4Oc7cxmNyXXzeDBhC-WJ4za17B7os" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -48,7 +48,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5NzI0OSwiZXhwIjoxNzUyMTAzMjQ5fQ.V8HcYOzYjWfNZZS1jsf6UhM-rwvLE620Jm4pd6VJYzA" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -64,7 +64,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzIwMiwiZXhwIjoxNzUyMTU5MjAyfQ.KTrGhR9paPIHRqre99U5d98g6GATO7Ebd6BVQQ_yg3Y" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -72,7 +72,7 @@
               </option>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;ime&quot;: &quot;Antisa&quot;,&#10;  &quot;prezime&quot;: &quot;Antisic&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;ime&quot;: &quot;Antisa&quot;,&#10;  &quot;prezime&quot;: &quot;Antisic&quot;,&#10;  &quot;programNaziv&quot;: &quot;backend java asdas&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -86,7 +86,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5MzYxOCwiZXhwIjoxNzUyMDk5NjE4fQ.WkW1uDgIFOxOFFLRdj2MzxzVclSp-89aiagamOHL5eM" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzU5NywiZXhwIjoxNzUyMTU5NTk3fQ.d4wenieuf_TvYbwS7bBYTJgN2mdNKsajfiRG6D1zZyA" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -102,7 +102,7 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5Mzc0NywiZXhwIjoxNzUyMDk5NzQ3fQ.kcIFuNR6nNuqh6LxBDp-PgH8W0R_9Di2Ty34i2ns6t0" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
@@ -118,11 +118,16 @@
                 <authState>
                   <option name="bearer">
                     <nv>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjA5Mzc0NywiZXhwIjoxNzUyMDk5NzQ3fQ.kcIFuNR6nNuqh6LxBDp-PgH8W0R_9Di2Ty34i2ns6t0" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1MjE1MzAzMSwiZXhwIjoxNzUyMTU5MDMxfQ.lCyCrVpgvFbIFA64rhn6Y3TlSf6hdeBrN7tjUZUy02k" />
                     </nv>
                   </option>
                   <option name="type" value="BEARER" />
                 </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="type" value="JSON" />
+                </bodyState>
               </option>
               <option name="id" value="281871f9-c15d-4fcf-8c41-7387f11c3621" />
               <option name="method" value="GET" />
@@ -140,6 +145,23 @@
               <option name="method" value="POST" />
               <option name="name" value="Login info" />
               <option name="url" value="http://localhost:9090/auth/api/v1/login" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;token&quot;: &quot;9a71fb6e-c185-49db-b30b-77d48195ddc5&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="bb0ace71-21f4-4e6e-8583-2576bb70863a" />
+              <option name="method" value="POST" />
+              <option name="name" value="Get refresh tokken" />
+              <option name="url" value="http://localhost:9090/auth/api/v1/refreshToken" />
             </requestState>
           </list>
         </option>

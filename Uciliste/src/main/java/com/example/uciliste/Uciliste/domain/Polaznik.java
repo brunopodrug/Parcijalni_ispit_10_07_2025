@@ -21,6 +21,16 @@ public class Polaznik {
 
     private String prezime;
 
+    private String programNaziv;
+
+    public String getProgramNaziv() {
+        return programNaziv;
+    }
+
+    public void setProgramNaziv(String programNaziv) {
+        this.programNaziv = programNaziv;
+    }
+
     @OneToMany(mappedBy = "polaznik", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Upis> upisSet = new HashSet<>();
 

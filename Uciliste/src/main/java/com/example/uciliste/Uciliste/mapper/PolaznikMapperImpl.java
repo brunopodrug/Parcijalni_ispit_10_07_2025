@@ -11,7 +11,8 @@ public class PolaznikMapperImpl implements PolaznikMapper {
     public PolaznikDto mapToPolaznikDto(Polaznik polaznik) {
         return new PolaznikDto (
                 polaznik.getIme(),
-                polaznik.getPrezime()
+                polaznik.getPrezime(),
+                polaznik.getProgramNaziv()
         );
 
 

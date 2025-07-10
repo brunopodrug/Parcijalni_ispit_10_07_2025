@@ -1,11 +1,11 @@
-insert into POLAZNIK (ime, prezime)
-VALUES('Ante', 'Antic');
-insert into POLAZNIK (ime, prezime)
-VALUES('Ivo', 'Ivic');
-insert into POLAZNIK (ime, prezime)
-VALUES('Pero', 'Peric');
-insert into POLAZNIK (ime, prezime)
-VALUES('Sime', 'Simic');
+insert into POLAZNIK (ime, prezime, program_naziv)
+VALUES('Ante', 'Antic', 'backend java');
+insert into POLAZNIK (ime, prezime, program_naziv)
+VALUES('Ivo', 'Ivic', 'frontend');
+insert into POLAZNIK (ime, prezime, program_naziv)
+VALUES('Pero', 'Peric', 'c++');
+insert into POLAZNIK (ime, prezime, program_naziv)
+VALUES('Sime', 'Simic', 'c++');
 
 insert into PROGRAM_OBRAZOVANJA(naziv, csvet)
 VALUES('backend java', 60);

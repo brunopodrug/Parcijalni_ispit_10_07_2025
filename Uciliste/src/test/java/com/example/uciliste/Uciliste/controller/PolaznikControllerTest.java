@@ -38,8 +38,8 @@ public class PolaznikControllerTest {
         mockMvc = MockMvcBuilders.standaloneSetup(polaznikController).build();
 
         // Initialize mock data
-        PolaznikDto article1 = new PolaznikDto("Toma", "Tomic");
-        PolaznikDto article2 = new PolaznikDto("Ivana", "Ivancic");
+        PolaznikDto article1 = new PolaznikDto("Toma", "Tomic", "backend java");
+        PolaznikDto article2 = new PolaznikDto("Ivana", "Ivancic", "frontend");
         polaznici = Arrays.asList(article1, article2);
     }
 
@@ -56,7 +56,7 @@ public class PolaznikControllerTest {
     @Test
     void testGetPolaznikById() throws Exception {
         Long polaznikId = 1L;
-        PolaznikDto poalznikDto = new PolaznikDto("Bruno", "Podrug");
+        PolaznikDto poalznikDto = new PolaznikDto("Bruno", "Podrug" , "c++");
         when(polaznikService.findById(polaznikId)).thenReturn(Optional.of(poalznikDto));
 
         PolaznikDto result = polaznikController.getById(polaznikId);
@@ -67,7 +67,7 @@ public class PolaznikControllerTest {
 
     @Test
     void testSaveNewPolaznik() throws Exception {
-        PolaznikDto poalznikDto = new PolaznikDto("Bruno", "Podrug");
+        PolaznikDto poalznikDto = new PolaznikDto("Bruno", "Podrug", "c++");
         when(polaznikService.save(poalznikDto)).thenReturn(Optional.of(poalznikDto));
 
         PolaznikDto result = polaznikController.save(poalznikDto);
@@ -79,7 +79,7 @@ public class PolaznikControllerTest {
     @Test
     void testUpdatePolaznik() {
         Long polaznikId = 2L;
-        PolaznikDto polaznikDto = new PolaznikDto("Sime", "Simic");
+        PolaznikDto polaznikDto = new PolaznikDto("Sime", "Simic", "backend java");
         when(polaznikService.updatePolaznik(polaznikId, polaznikDto)).thenReturn(Optional.of(polaznikDto));
 
         PolaznikDto result = polaznikController.update(polaznikId, polaznikDto);

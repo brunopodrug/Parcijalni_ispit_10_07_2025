@@ -53,6 +53,7 @@ public class PolaznikServiceImpl implements PolaznikService {
             Polaznik polaznikToUpdate = polaznik.get();
             polaznikToUpdate.setIme(polaznikDto.getIme());
             polaznikToUpdate.setPrezime(polaznikDto.getPrezime());
+            polaznikToUpdate.setProgramNaziv(polaznikDto.getProgramNaziv());
 
             Polaznik updatedPolaznik = polaznikRepository.save(polaznikToUpdate);
             return Optional.of(polaznikMapper.mapToPolaznikDto(updatedPolaznik));
